@@ -7,3 +7,14 @@ nav {
     margin-top: 75px;
     margin-left: 145px;
 }
+
+.header-content {
+    width: 564px;
+}
+
+.header-content h1 {
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #253347;
+}
