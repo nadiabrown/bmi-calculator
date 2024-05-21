@@ -18,3 +18,9 @@ nav {
     font-weight: 600;
     color: #253347;
 }
+
+.header-content p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #5E6E85;
+}
