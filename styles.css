@@ -8,8 +8,20 @@ nav {
     margin-left: 145px;
 }
 
+.shape {
+    position: absolute;
+    height: 737px;
+    width: 978px;
+    z-index: -1;
+    background-color: #E8F6FF;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    top: -100px;
+    margin-left: 20px;
+}
+
 .header-content {
-    width: 564px;
+    width: 520px;
     padding-top: 140px;
     margin-left: 145px;
 }
