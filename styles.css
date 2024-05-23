@@ -58,11 +58,17 @@ header {
     padding: 30px 0px 35px 20px;
 }
 
+.measurement-system-radio-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .measurement-system-radio-buttons label {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #253347;
+    width: 200px;
 }
 
 input[type="radio"] {
@@ -74,7 +80,7 @@ input[type="radio"] {
 
 input[type="radio"] + label {
     position: relative;
-    padding-left: 40px; 
+    padding-left: 50px; 
     cursor: pointer;
     display: inline-block;
     line-height: 31px; 
