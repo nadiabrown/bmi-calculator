@@ -122,3 +122,57 @@ input[type="radio"]:checked + label:after {
     transform: translateY(-50%); 
 }
 
+.height-and-weight-input-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section label {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #253347;
+    padding-bottom: 10px;
+}
+
+input[type="number"] {
+    /* Remove default browser styling */
+    border: none; /* Removes the border */
+    appearance: none; /* Removes default styling provided by the browser */
+    -moz-appearance: textfield; /* Specific to Firefox to remove spinners */
+    height: 29px;
+    width: 131px;
+    font-size: 24px;
+    color:#253347;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Removes the spacing */
+}
+
+input[type="number"]:focus {
+    outline: none;  /* Removes the default focus highlight */
+}
+
+.height-and-weight-input span {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #345FF6;
+}
+
+.height-and-weight-input {
+    border: 1px solid #D8E2E7;
+    border-radius: 12px;
+    padding: 21px;
+}
