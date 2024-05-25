@@ -48,7 +48,6 @@ header {
     width: 564px;
     background-color: #fff;
     border-radius: 20px;
-
 }
 
 .bmi-form h2 {
@@ -143,7 +142,7 @@ input[type="radio"]:checked + label:after {
 
 input[type="number"] {
     /* Remove default browser styling */
-    border: none; /* Removes the border */
+    border: none;
     appearance: none; /* Removes default styling provided by the browser */
     -moz-appearance: textfield; /* Specific to Firefox to remove spinners */
     height: 29px;
@@ -157,11 +156,11 @@ input[type="number"] {
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
-    margin: 0; /* Removes the spacing */
+    margin: 0; 
 }
 
 input[type="number"]:focus {
-    outline: none;  /* Removes the default focus highlight */
+    outline: none; 
 }
 
 .height-and-weight-input span {
@@ -175,4 +174,42 @@ input[type="number"]:focus {
     border: 1px solid #D8E2E7;
     border-radius: 12px;
     padding: 21px;
+}
+
+.bmi-result {
+    height: 140px;
+    width: 400px;
+    background-color: #345FF6;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 35px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bmi-result h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.bmi-result-number {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.bmi-result-text {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    width: 206px;
 }
