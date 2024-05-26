@@ -217,6 +217,14 @@ input[type="number"]:focus {
     width: 206px;
 }
 
+.bmi-result-meaning-section {
+    display: flex;
+    align-items: center;
+    margin-top: 175px;
+    justify-content: center;
+    gap: 125px;
+}
+
 .bmi-result-meaning-image img {
     width: 564px;
 }
