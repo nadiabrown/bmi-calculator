@@ -231,3 +231,10 @@ input[type="number"]:focus {
     color: #253347;
     font-weight: 600;
 }
+
+.bmi-result-meaning-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #5E6E85;
+    width: 465px;
+}
