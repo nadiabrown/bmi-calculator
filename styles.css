@@ -50,6 +50,7 @@ header {
     width: 564px;
     background-color: #fff;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(158, 158, 158, 0.5);
 }
 
 .bmi-form h2 {
