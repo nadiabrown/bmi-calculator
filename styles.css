@@ -220,3 +220,7 @@ input[type="number"]:focus {
 .bmi-result-meaning-image img {
     width: 564px;
 }
+
+.bmi-result-meaning-text {
+    width: 564px;
+}
