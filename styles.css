@@ -45,6 +45,7 @@ header {
     color: #5E6E85;
     width: 465px;
     font-weight: 300;
+    line-height: 150%;
 }
 
 .bmi-form{
@@ -249,6 +250,7 @@ input[type="number"]:focus {
     color: #5E6E85;
     width: 465px;
     font-weight: 300;
+    line-height: 150%;
 }
 
 .habits-section {
@@ -281,4 +283,5 @@ input[type="number"]:focus {
     font-size: 16px;
     color: #5E6E85;
     font-weight: 300;
+    line-height: 150%;
 }
