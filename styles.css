@@ -236,6 +236,7 @@ input[type="number"]:focus {
 
 .bmi-result-meaning-text {
     width: 564px;
+    padding-top: 125px;
 }
 
 .bmi-result-meaning-text h2 {
