@@ -249,6 +249,14 @@ input[type="number"]:focus {
     width: 465px;
 }
 
+.habits-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 402px;
+    gap: 30px;
+}
+
 .habit-item {
     width: 365px;
 }
