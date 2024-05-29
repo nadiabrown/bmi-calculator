@@ -235,7 +235,7 @@ input[type="number"]:focus {
 }
 
 .bmi-result-meaning-text {
-    width: 564px;
+    width: 500px;
     padding-top: 125px;
 }
 
