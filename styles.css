@@ -255,6 +255,7 @@ input[type="number"]:focus {
     align-items: center;
     height: 402px;
     gap: 30px;
+    background-color: #F7FAFF;
 }
 
 .habit-item {
