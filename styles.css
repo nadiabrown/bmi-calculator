@@ -44,6 +44,7 @@ header {
     font-family: "Inter", sans-serif;
     color: #5E6E85;
     width: 465px;
+    font-weight: 300;
 }
 
 .bmi-form{
@@ -247,6 +248,7 @@ input[type="number"]:focus {
     font-size: 16px;
     color: #5E6E85;
     width: 465px;
+    font-weight: 300;
 }
 
 .habits-section {
@@ -278,4 +280,5 @@ input[type="number"]:focus {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #5E6E85;
+    font-weight: 300;
 }
