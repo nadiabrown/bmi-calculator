@@ -288,3 +288,56 @@ input[type="number"]:focus {
     font-weight: 300;
     line-height: 150%;
 }
+
+.row-one {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 110px;
+    gap: 180px;
+}
+
+.bmi-limitations-main-text h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    color: #253347;
+    padding-bottom: 35px;
+}
+
+.bmi-limitations-main-text {
+    width: 564px;
+}
+
+.bmi-limitations-main-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #5E6E85;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.bmi-limitation {
+    width: 301px;
+    padding: 25px;
+    box-shadow: 10px 10px 20px rgba(158, 158, 158, 0.5);
+    border-radius: 16px;
+}
+
+.bmi-limitation h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #5E6E85;
+}
+
+.bmi-limitation p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #5E6E85;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.bmi-limitation-title {
+    display: flex;
+    gap: 13px;
+    padding-bottom: 15px;
+}
