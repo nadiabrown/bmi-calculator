@@ -293,6 +293,7 @@ input[type="number"]:focus {
     display: flex;
     margin-left: 130px;
     margin-top: 110px;
+    margin-bottom: 25px;
     gap: 180px;
 }
 
