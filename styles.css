@@ -350,3 +350,11 @@ input[type="number"]:focus {
     margin-right: 130px;
     padding-bottom: 30px;
 }
+
+.row-three {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-right: 330px;
+    margin-bottom: 130px;
+}
