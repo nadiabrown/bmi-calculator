@@ -60,14 +60,14 @@ header {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #253347;
-    padding: 40px 0px 35px 30px;
+    padding: 40px 0px 35px 40px;
 }
 
 .measurement-system-radio-buttons {
     display: flex;
     justify-content: center;
     position: relative;
-    left: -8px;
+    left: 9px;
 }
 
 .measurement-system-radio-buttons label {
@@ -151,7 +151,7 @@ input[type="number"] {
     appearance: none; /* Removes default styling provided by the browser */
     -moz-appearance: textfield; /* Specific to Firefox to remove spinners */
     height: 29px;
-    width: 131px;
+    width: 140px;
     font-size: 24px;
     color:#253347;
     font-family: "Inter", sans-serif;
@@ -183,7 +183,7 @@ input[type="number"]:focus {
 
 .bmi-result {
     height: 140px;
-    width: 400px;
+    width: 410px;
     background-color: #345FF6;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
