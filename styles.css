@@ -181,6 +181,11 @@ input[type="number"]:focus {
     padding: 21px;
 }
 
+.height-and-weight-input:focus-within {
+    outline: none;
+    border-color: #345FF6; 
+}
+
 .bmi-result {
     height: 140px;
     width: 410px;
