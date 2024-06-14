@@ -230,6 +230,12 @@ input[type="number"]:focus {
     font-weight: 600;
 }
 
+.left-curve {
+    position: absolute;
+    right: 120px;
+    top: 710px;
+}
+
 .bmi-result-meaning-section {
     display: flex;
     align-items: center;
@@ -361,6 +367,12 @@ input[type="number"]:focus {
     justify-content: flex-end;
     margin-right: 130px;
     padding-bottom: 30px;
+}
+
+.right-curve {
+    position: absolute;
+    left: 380px;
+    bottom: -1500px;
 }
 
 .row-three {
