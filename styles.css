@@ -226,6 +226,10 @@ input[type="number"]:focus {
     line-height: 150%;
 }
 
+.weight-class {
+    font-weight: 600;
+}
+
 .bmi-result-meaning-section {
     display: flex;
     align-items: center;
