@@ -260,7 +260,7 @@ input[type="number"]:focus {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #5E6E85;
-    width: 465px;
+    width: 500px;
     font-weight: 300;
     line-height: 150%;
 }
@@ -272,6 +272,7 @@ input[type="number"]:focus {
     height: 402px;
     gap: 30px;
     background-color: #F7FAFF;
+    padding-left: 40px;
 }
 
 .habit-item {
@@ -294,6 +295,7 @@ input[type="number"]:focus {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #5E6E85;
+    width: 365px;
     font-weight: 300;
     line-height: 150%;
 }
