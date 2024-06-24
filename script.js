@@ -16,4 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  userHeight.addEventListener("input", displayWelcomeMessage);
+  userWeight.addEventListener("input", displayWelcomeMessage);
+
+  displayWelcomeMessage();
 });

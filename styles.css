@@ -196,32 +196,26 @@ input[type="number"]:focus {
     border-bottom-left-radius: 16px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
     padding: 10px 35px;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .bmi-result h3 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
     color: #fff;
 }
 
-.bmi-result-number {
-    font-family: "Inter", sans-serif;
-    color: #fff;
-    font-size: 64px;
-    font-weight: 600;
-}
-
-.bmi-result-text {
+.bmi-result p {
     font-family: "Inter", sans-serif;
     color: #fff;
     font-size: 14px;
-    width: 206px;
+    width: 400px;
     font-weight: 300;
     line-height: 150%;
 }
